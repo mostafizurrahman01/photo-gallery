@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-5 nav-modify">
                     <li className="nav-item active">
-                        <Link className="nav-link  ms-3" to="/">Home</Link>
+                        <Link className="nav-link  ms-3" to="/home">Home</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link  ms-3" to="/about">About</Link>
